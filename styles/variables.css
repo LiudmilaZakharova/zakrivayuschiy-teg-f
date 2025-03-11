@@ -2,7 +2,7 @@
   */
 :root {
   --main-font-family: 'Inter Variable', sans-serif, monospace;
-  --accent-font: 'Press Start 2P', monospace;
+  --accent-font: 'Press Start 2P', Fantasy,  monospace;
   --main-font-size: 1.125rem;
   --fw-bold: 700;
   --fw-normal: 400;
