@@ -1,1 +1,28 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства 
+  */
+:root {
+  --main-font-family: 'Inter Variable', sans-serif, monospace;
+  --accent-font: 'Press Start 2P', monospace;
+  --main-font-size: 1.125rem;
+  --fw-bold: 700;
+  --fw-normal: 400;
+  --main-line-height: 1.313rem;
+  --header-margine: 6.25rem;
+  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --bg-color: #fff;
+  --content-border: 2px solid #000;
+  --card-padding: 1.563rem;
+  --shadow-color: #fff;
+  --button-color: #fff;
+  --accent-color: #000;
+  --mine-margine: 3.125rem;
+  --bg-gradient: 
+  repeating-linear-gradient(to right, rgb(211, 211, 211) 0 2px, rgb(211, 211, 211, 0) 2px 4px),
+  repeating-linear-gradient(to bottom, rgb(211, 211, 211) 0 2px, rgb(211, 211, 211, 0) 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  /*heart*/
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --main-body-color: #ff0000;
+  --core-color: #fff;
+}
